@@ -1,0 +1,162 @@
+body{
+    margin: auto;
+}
+
+/* Header */
+#header{
+    height: 60px;
+    border: 1px solid #e6c0b3;
+    background-color: #e6c0b3;
+}
+
+/* Brand Name */
+#name > a > h1{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 1%;
+    margin-top: 1%;
+    color: #7c1702 !important;
+}
+
+/* Social Media*/
+#socials{
+    float: right;
+    margin-right: 2%;
+}
+
+/* Social media hyperlinks */
+.links{
+    text-decoration: none;
+}
+
+/* Social Media Icons */
+.socialIcons{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    margin-top: 2%;
+}
+
+/* Header ends */
+
+
+#mainContainer{
+    height: 500px;
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+}
+
+/* Image */
+#image{
+    height: 400px;
+    width: 35%;
+    border: 1px ridge #F2DFCE;
+    float: left;
+    margin-left: 1%;
+}
+
+#pasta{
+    width: 100%;
+    height: 400px;
+}
+/* Image ends */
+
+/* Content */
+#content{
+    height: 400px;
+    width: 60%;
+    margin-left: 38%;
+}
+
+#content > h3{
+    font-size: 34px;
+    color: brown;
+    margin-top: -2%;
+}
+
+.price{
+    font-size: 18px;
+    color: brown;
+    font-weight: bold;
+}
+
+#quote{
+    font-size: 18px;
+    color: brown;
+    font-weight: bold;
+}
+
+#ratings{
+    font-size: 19px;
+    color: #013b3b;
+    margin-left: 2%;
+}
+
+#homeDelivery, #sanitization, #veg{
+    width: 60px;
+    height: 60px;
+}
+
+#buttonDiv{
+    padding: 9%;
+    padding-left: 0%;
+}
+
+.btn{
+    margin-top: -3%;
+    padding: 2%;
+}
+
+#addToCart{
+    background-color: #e52626;
+    border: 1px ridge #e52626;
+    color: white;
+    width: 130px;
+    height: 65px;
+    font-size: 18px;
+}
+
+#buyNow{
+    background-color: #4dc545;
+    border: 1px ridge #4dc545;
+    color: white;
+    width: 130px;
+    height: 65px;
+    font-size: 18px;
+}
+
+/* Content ends */
+
+
+/* Star Icons start */
+.fa-star{
+    font-size: 20px;
+    color: grey;
+    margin-top: -4%;
+}
+
+.checked{
+    color: #f74242;
+}
+
+.fa-star-half-alt{
+    font-size: 22px;
+    color: #f74242;
+}
+/* Star Icons end */
+
+/* Footer starts */
+footer{
+    height: 60px;
+    border: 1px solid #e6c0b3;
+    background-color: #e6c0b3;
+}
+
+footer > center > p{
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+/* Footer Ends */

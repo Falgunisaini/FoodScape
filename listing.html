@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <title>Listing</title>
+        <link href="images/favicon.PNG" rel="icon"/>
+        <link href="listing.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--header starts-->
+        <header id="header">
+            <div id="name">
+                <a href="homepage.html"><h1>FoodScape</h1></a>
+            </div>
+            <div id="socials">
+                <a href="https://www.facebook.com" target="__blank" class="links"> 
+                    <img src="https://i.ibb.co/D4JmwH6/facebook.png" alt="Facebook" class="socialIcons"/>
+                </a>
+                <a href="https://www.linkedin.com" target="__blank" class="links"> 
+                    <img src="https://i.ibb.co/pfV20k7/linkedin.png" alt="LinkedIn" class="socialIcons"/>
+                </a>
+                <a href="https://www.instagram.com" target="__blank" class="links">
+                    <img src="https://i.ibb.co/zRRstNG/instagram.jpg" alt="Instagram" class="socialIcons"/>
+                </a>
+                <a href="https://www.twitter.com" target="__blank" class="links">
+                    <img src="https://i.ibb.co/H4qdjVC/twitter1.png" alt="Twitter"class="socialIcons"/>
+                </a>
+                <a href="https://www.youtube.com" target="__blank" class="links">
+                    <img src="https://i.ibb.co/HhzMn9m/yt.png" alt="youtube" class="socialIcons"/>
+                </a>
+            </div>
+        </header>
+        <!--header ends-->
+
+
+        <h3 id="firstHeading">Pick A Restaurant Based On Your Preference</h3>
+
+        <div id="mainContainer">
+
+            <div class="filterBox">
+                <h3 id="filterHeading1">Filters</h3>
+
+                <div id="city">
+                    <h4 id="filterHeading2">Select Location</h4>
+                    <select id="dropDownMenu">
+                        <option>Select City</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Kolkata</option>
+                        <option>Pune</option>
+                    </select>
+                </div>
+
+                <div id="cuisine">
+                    <h4 class="filterHeading3">Cuisine </h4>
+                    <div id="checkBox">
+                        <input type="checkbox" class="check"> North Indian<br/>
+                        <input type="checkbox" class="check"> South Indian<br/>
+                        <input type="checkbox" class="check"> Fast Food<br/>
+                        <input type="checkbox" class="check" checked> Italian<br/>
+                        <input type="checkbox" class="check"> Chinese<br/>
+                    </div>
+                </div>
+
+                <div id="price">
+                    <h4 class="filterHeading3">Price For Two</h4>
+                    <div id="radioButton">
+                        <input type="radio" class="radio"> Up To ₹1000<br/>
+                        <input type="radio" class="radio"> ₹1000 - ₹2000<br/>
+                        <input type="radio" class="radio"> ₹2000 - ₹3000<br/>
+                        <input type="radio" class="radio"> ₹3000 - ₹4000<br/>
+                        <input type="radio" class="radio"> Above ₹4000<br/>
+                    </div>
+                </div>
+
+                <div id="sort">
+                    <h4 class="filterHeading3">Sort</h4>
+                    <div id="radioButton">
+                        <input type="radio" class="radio"> Price- Low To High<br/>
+                        <input type="radio" class="radio"> Price- High To Low<br/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="listingBox">
+                
+                <div id="listing1">
+                    <div class="listingComponent1">
+                        <img src="images/italian2.jpg" alt="Italian" class="listingImage"/>
+                        <div class="listingComponent2">
+                            <h2>Spago</h2>
+                            <p>Delhi</p>
+                            <p>N-2, Kasbah, Greater Kailash (GK) 1, New Delhi</p>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="listingComponent3">
+                        <hr/>
+                        <p>Cost For Two: ₹2,300 (Approx.)</p>
+                        <a href="details.html">Details</a>
+                    </div>
+                </div>
+
+                <div id="listing1">
+                    <div class="listingComponent1">
+                        <img src="images/italian.jpg" alt="Italian" class="listingImage"/>
+                        <div class="listingComponent2">
+                            <h2>Artusi Ristorante e Bar</h2>
+                            <p>Delhi</p>
+                            <p>M 24, M Block Market, Greater Kailash (GK) 2, New Delhi</p>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="listingComponent3">
+                        <hr/>
+                        <p>Cost For Two: ₹3,500 (Approx.)</p>
+                        <a href="details.html">Details</a>
+                    </div>
+                </div>
+
+                <div id="listing1">
+                    <div class="listingComponent1">
+                        <img src="images/italian3 (3).jpg" alt="Italian" class="listingImage"/>
+                        <div class="listingComponent2">
+                            <h2>Diva - The Italian Restaurant</h2>
+                            <p>Delhi</p>
+                            <p>M-8A, M Block Market, Greater Kailash (GK) 2, New Delhi</p>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="listingComponent3">
+                        <hr/>
+                        <p>Cost For Two: ₹2,500 (Approx.)</p>
+                        <a href="details.html">Details</a>
+                    </div>
+                </div>
+
+
+                <div id="listing1">
+                    <div class="listingComponent1">
+                        <img src="images/italian4.jpg" alt="Italian" class="listingImage"/>
+                        <div class="listingComponent2">
+                            <h2>San Gimignano</h2>
+                            <p>Delhi</p>
+                            <p>The Imperial, Janpath, New Delhi</p>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="listingComponent3">
+                        <hr/>
+                        <p>Cost For Two: ₹5,500 (Approx.)</p>
+                        <a href="details.html">Details</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--footer starts-->
+        <footer >
+            <center>
+                <p>&copy; FoodScape</p>
+            </center>
+        </footer>
+        <!--footer ends-->
+
+    </body>
+</html>
